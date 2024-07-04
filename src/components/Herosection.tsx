@@ -17,7 +17,7 @@ function Herosection() {
 
     <p className="mt-6 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">Explore our diverse course offerings, including Music Theory, Composition, Instrument Mastery, Vocal Training, Music Production, and more. With a blend of traditional techniques and modern innovations.</p>
 
-    <div className='mt-6'>
+    <div className='mt-16'>
         <Link href={"/courses"}>
         <Button borderRadius='1.75rem'
         className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
