@@ -30,7 +30,9 @@ const Content = [
 function WhyChoosingUs() {
   return (
     <div className="">
+        <div className="p-10">
         <StickyScroll content={Content}/>
+        </div>
     </div>
   )
 }
