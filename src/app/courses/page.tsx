@@ -25,17 +25,17 @@ function page() {
         </h1>
         <div className="flex flex-wrap justify-center">
           {courseData.courses.map((course: Course) => (
-            <CardContainer className="inter-var m-6">
+            <CardContainer key={course.id} className="inter-var m-6">
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
-                  key={course.id}
+                  
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
                 >
                   {course.title}
                 </CardItem>
                 <CardItem
-                  key={course.id}
+                  
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
@@ -44,7 +44,7 @@ function page() {
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
                   <Image
-                    key={course.id}
+                    
                     src={course.image}
                     height="1000"
                     width="1000"
@@ -54,7 +54,7 @@ function page() {
                 </CardItem>
                 <div className="flex justify-between items-center mt-20">
                   <CardItem
-                  key={course.id}
+                  
                     translateZ={20}
                     as={Link}
                     href="#"
