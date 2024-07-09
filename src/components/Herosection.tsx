@@ -13,7 +13,7 @@ function Herosection() {
       />  
     <div className='p-4 relative z-10 w-full text-center'>
   
-    <h1 className="mt-24 md:mt-40 tracking-tight text-5xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Gateway to Musical Mastery</h1>
+    <h1 className="mt-24 md:mt-40 tracking-tight text-4xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Gateway to Musical Mastery</h1>
 
     <p className="mt-6 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">Explore our diverse course offerings, including Music Theory, Composition, Instrument Mastery, Vocal Training, Music Production, and more. With a blend of traditional techniques and modern innovations.</p>
 

@@ -47,10 +47,8 @@ function UpcomingWebinars() {
     <div className="p-12 bg-slate-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
-          <h2 className="text-base font-light tracking-wider text-slate-100 uppercase">
-            Featured Courses
-          </h2>
-          <p className=" text-5xl mt-3 font-bold text-slate-100 tracking-tight font-sans">
+          
+          <p className=" text-3xl sm:5xl mt-3 font-bold text-slate-100 tracking-tight font-sans mx-auto">
             Upcoming webinars
           </p>
         </div>
