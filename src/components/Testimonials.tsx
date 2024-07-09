@@ -44,7 +44,7 @@ const MusicStudioTestimonials = [
 function Testimonials() {
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.07] items-center justify-center relative overflow-hidden" >
-      <h2 className="mb-10 text-center  tracking-normal text-3xl sm:text-4xl font-semibold">Voice of Success...</h2>
+      <h2 className="mb-10 text-center  tracking-normal text-3xl sm:text-4xl font-semibold font-sans">Voice of Success...</h2>
       <div className="flex justify-center w-full overflow-hidden">
         <div  className="w-full max-w-6xl ">
           <InfiniteMovingCards
